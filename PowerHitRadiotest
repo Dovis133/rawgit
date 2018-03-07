@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/*.room-background {
+    background: url(https://i.imgur.com/mmA0bLO.jpg) no-repeat !important;
+    width: 500% !important;
+    height: 500% !important;
+}*/
+#user-lists .list.staff .group {
+    background: linear-gradient(to right, rgba(0, 250, 0, 0) 0, rgba(0, 0, 0, 1) 100%) !important;
+}
+#plug-menu {
+    background: rgba(40, 44, 53, 0.94) !important;
+    opacity: 0.8;
+}
+#plug-menu .legal {
+    background: rgba(68, 74, 89, 0.46) !important;
+}
+#settings {
+    background: rgba(10, 10, 10, 0.89) !important;
+}
+#user-lists .list .user:hover {
+    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 0, 194, 0.27) 100%) !important;
+}
+#waitlist .list .user {
+    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 0, 194, 0.13) 100%) !important;
+}
+
+#chat .message:nth-child(2n+1),
+#chat .mention:nth-child(2n+1),
+#chat .skip:nth-child(2n+1),
+#chat .moderation:nth-child(2n+1),
+#chat .emote:nth-child(2n+1),
+#chat .update:nth-child(2n+1),
+#chat .welcome:nth-child(2n+1) {
+    background-color: rgba(17, 19, 23, 0.32);
+    -webkit-animation: fadein 0.25s;
+    -moz-animation: fadein 0.25s;
+    -ms-animation: fadein 0.25s;
+    -o-animation: fadein 0.25s;
+    animation: fadein 0.25s;
+}
+#chat .emote,
+#chat .mention,
+#chat .message,
+#chat .moderation,
+#chat .skip,
+#chat .system,
+#chat .update,
+#chat .welcome {
+    -webkit-animation: fadein 0.25s;
+    -moz-animation: fadein 0.25s;
+    -ms-animation: fadein 0.25s;
+    -o-animation: fadein 0.25s;
+    animation: fadein 0.25s;
+}
+#chat .mention {
+    font-weight: 700;
+    /*padding-left: 25px;*/
+    border-left: #7681FF 3px solid;
+}
+#chat .emote .from {
+    color: #ac76ff !important;
+}
+#chat .emote {
+    border-left: rgba(174, 69, 189, 1) 3px solid !important;
+    background-color: rgba(76, 93, 119, 0.22) !important;
+}
+#chat-messages .emote .icon {
+    /*left: 4px;*/
+}
+#chat .emote .text {
+    font-style: normal;
+    font-weight: bold;
+    color: #ac76ff;
+}
+#room-host,
+#room-name {
+    left: 75px;
+}
+#room-bar .icon-room {
+    top: 8px;
+    left: 10px;
+}
+i.icon.icon-room {
+    width: 65px;
+    height: 50px;
+}
+.icon-room {
+    background: url(https://i.imgur.com/UOZecvm.png) no-repeat !important;
+    width: 0px;
+    height: 0px;
+    background-size: 0%;
+    margin-left: -0px;
+    margin-top: 0px;
+}
+.app-header {
+    background: rgba(28, 31, 37, 0.59);
+}
+#footer {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.75) 100%);
+}
+#playlist-button {
+    background: linear-gradient(to bottom, #FF5CDE 0, #5700FF 100%);
+}
+.social-menu .icon-twitter,
+.social-menu .icon-facebook {
+    opacity: 1;
+}
+#playlist-panel {
+    background: rgba(17, 19, 23, 0.9);
+}
+#playlist-menu {
+    background: rgba(28, 31, 37, 0.67);
+}
+#search {
+    background: rgba(50, 55, 66, 0.58);
+}
+#search-bar {
+    background: rgba(17, 19, 23, 0.77);
+}
+#filter-bar {
+    background: rgba(17, 19, 23, 0.77);
+}
+#playlist-edit-button {
+    background: rgba(85, 93, 112, 0.75);
+}
+#playlist-shuffle-button {
+    background: rgba(68, 74, 89, 0.75);
+}
+#playlist-delete-button {
+    background: rgba(50, 55, 66, 0.75);
+}
+#user-panel .score {
+    background: rgba(28, 31, 37, 0.59);
+}
+#dj-button.is-locked .left,
+#dj-button.is-full .left,
+#vote .crowd-response.disabled .bottom {
+    background: #222224;
+}
+#dj-button.is-quit .left,
+#dj-button.is-leave .left,
+#dj-button.is-wait .left,
+#dj-button.is-locked .left,
+#dj-button.is-full .left {
+    background: #121214;
+    border-radius: 8px;
+    /*border-left-width: 4px;*/
+}
+#dj-button.is-quit .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-leave .left {
+border-left: 3px solid #f46b40;
+}
+#dj-button.is-wait .left {
+border-left: 3px solid #00b5e6;
+}
+#dj-button.is-locked .left {
+border-left: 3px solid #734ba9;
+}
+#dj-button.is-full .left {
+border-left: 3px solid #CCCCCC;
+}
+#dj-button {
+    background: #222224;
+    border-radius: 8px;
+}
+#vote .crowd-response {
+    background: #222224;
+}
+#woot .bottom,
+#woot.selected {
+    background: #90ad2f;
+}
+#grab .bottom,
+#grab.selected {
+    background: #aa74ff;
+}
+#meh .bottom,
+#meh.selected {
+    background: #c42e3b;
+}
+.row:hover {
+    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(41, 48, 124, 0.27) 100%) !important;
+}
+#chat .mention .msg {
+    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(41, 48, 124, 0.27) 100%);
+}
+#user-lists .list.room .user .icon-meh {
+    top: -1px !important;
+    right: 8px !important;
+    left: auto !important;
+}
+#user-lists .list.room .user .icon-grab {
+    right: 35px;
+}
+/* Chat Fade */
+#chat .emote,
+#chat .mention,
+#chat .message,
+#chat .moderation,
+#chat .skip,
+#chat .system,
+#chat .update,
+#chat .welcome {
+    -webkit-animation: fadein 0.35s;
+    -moz-animation: fadein 0.35s;
+    -ms-animation: fadein 0.35s;
+    -o-animation: fadein 0.35s;
+    animation: fadein 0.35s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    ;
+    to {
+        opacity: 1;
+    }
+    ;
+}
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    ;
+    to {
+        opacity: 1;
+    }
+    ;
+}
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    ;
+    to {
+        opacity: 1;
+    }
+    ;
+}
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    ;
+    to {
+        opacity: 1;
+    }
+    ;
+}
+@-o-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    ;
+    to {
+        opacity: 1;
+    }
+    ;
+}
+#user-lists .list {
+    -webkit-animation: fadein 0.3s;
+    -moz-animation: fadein 0.3s;
+    -ms-animation: fadein 0.3s;
+    -o-animation: fadein 0.3s;
+    animation: fadein 0.3s;
+}
+#waitlist .list {
+    -webkit-animation: fadein 0.3s;
+    -moz-animation: fadein 0.3s;
+    -ms-animation: fadein 0.3s;
+    -o-animation: fadein 0.3s;
+    animation: fadein 0.3s;
+}
+
+.experience .xp .bar .progress {
+    background: linear-gradient(hsl(40, 61%, 54%), hsl(40, 59%, 31%));
+}
+#footer-user .info .bar .progress {
+    background: rgba(197, 152, 64, 1);
+}
+/* -------------------------- CHAT ---------------------------------- */
+#chat .emote .text {
+    font-family: 'Arial';
+}
+#chat-messages .text {
+    font-family:  'Arial';
+    font-size: 12px;
+    line-height: 20px;
+}
+#chat .from {
+    position: relative;
+    margin-bottom: 3px;
+    font-size: 12px;
+    font-family: 'Arial';
+}
+#chat-input-field {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 305px;
+    height: 18px;
+    !important outline: 0;
+    border: 0;
+    background: 0 0;
+    color: #eee;
+    font-family: 'Arial';
+    font-size: 12px;
+}
+/* ------------------------------------------------------------------ */
+/* Menu list */
+#user-lists .list.bans .user:hover {
+    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 0, 0, 0.27) 100%) !important;
+}
+#user-lists .list.mutes .user:hover {
+    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 72, 0, 0.27) 100%) !important;
+}
+#user-lists .list.ignored .user:hover {
+    background: linear-gradient(to right, rgba(255, 118, 118, 0) 0, rgba(255, 191, 0, 0.27) 100%) !important;
+}
+#chat-suggestion {
+    background: rgba(2, 1, 1, 0.9);
+}
+.rcs-small-delete {
+    background: linear-gradient(hsl(40, 66%, 20%), hsl(40, 67%, 7%)) !important;
+    border-radius: 8px;
+}
+.rcs-small-delete:hover {
+    background: linear-gradient(hsl(0, 77%, 30%), hsl(0, 80%, 19%)) !important;
+    border-radius: 8px;
+}
+.radiantimg-small-delete {
+    background: linear-gradient(hsl(266, 80%, 22%), hsl(269, 81%, 13%)) !important;
+    border-radius: 8px;
+}
+
+/*>>>>Bot>>>>*/
+#chat [data-cid^="5141948-"] span.un.clickable {
+    color: rgba(0, 246, 255, 1) !important;
+}
+#chat [data-cid^="5141948-"].emote {
+    background: rgba(96, 122, 188, 0.2) !important;
+    border-left: rgb(0, 72, 255) 3px solid !important;
+}
+#chat [data-cid^="5141948-"].emote .timestamp {
+    color: #A993C7 !important;
+}
+#chat [data-cid^="5141948-"].emote .text {
+    color: #f7f7f7 !important;
+}
+#chat [data-cid^="5141948-"] .icon,
+#chat .id-5394376 .icon {
+    display: none !important;
+}
+#chat [data-cid^="5141948-"].emote {
+    overflow: hidden;
+}
+#rcs-menu {
+    background: -webkit-linear-gradient(top, rgb(8, 2, 18) 0%, rgba(2, 0, 6, 1) 100%);
+}
+#user-lists,
+#waitlist {
+    background: -webkit-linear-gradient(top, rgb(8, 2, 18) 0%, rgba(2, 0, 6, 1) 100%);
+}
+.app-right .friends {
+    background: -webkit-linear-gradient(top, rgb(8, 2, 18) 0%, rgba(2, 0, 6, 1) 100%);
+}
+#user-lists .list.staff .group {
+    background: rgb(3, 0, 7) !important;
+}
+
+#user-rollover.is-staff .info .role .icon.icon-chat-dj + span {
+    color: #940260 !important;
+}
+#user-rollover.is-staff .info .role .icon.icon-chat-bouncer + span {
+    color: #c3025c !important;
+}
+#user-rollover.is-staff .info .role .icon.icon-chat-manager + span {
+    color: #e13453 !important;
+}
+#user-rollover.is-staff .info .role .icon.icon-chat-cohost + span {
+    color: #dd5540 !important;
+}
+#user-rollover.is-staff .info .role .icon.icon-chat-host + span {
+    color: #ed9a4a !important;
+}
+#user-lists .list.staff .group {
+    background: rgb(3, 0, 7) !important;
+}
+#user-lists .header .button.room i,
+#user-lists .header .button.staff,
+#user-lists .header .button.bans,
+#user-lists .header .button.mutes,
+#user-lists .header .button.ignored {        
+        opacity:                1;
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-lists .header:hover > .button.room i,
+#user-lists .header:hover > .button.staff,
+#user-lists .header:hover > .button.bans,
+#user-lists .header:hover > .button.mutes,
+#user-lists .header:hover > .button.ignored {        
+        opacity:                0.5;
+}
+
+#user-lists .header .button.room i:hover,
+#user-lists .header .button.staff:hover,
+#user-lists .header .button.bans:hover,
+#user-lists .header .button.mutes:hover,
+#user-lists .header .button.ignored:hover {        
+        opacity:                1;
+}
+
+#user-lists .list .jspPane .user {
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#user-lists .list .jspPane .user:hover {
+        background:             rgba(148, 94, 242, 0.15) !important;
+}
+#app .friends .list .jspPane .row {
+        -webkit-transition:     all 0.3s linear;
+        -moz-transition:        all 0.3s linear;
+        -o-transition:          all 0.3s linear;
+        transition:             all 0.3s linear;
+}
+
+#app .friends .list .jspPane .row:hover {
+       background:              rgba(148, 94, 242, 0.2) !important; 
+}
+#app .header-panel-button.selected {
+        background:             rgb(3, 0, 7) !important;
+        box-shadow:             inset 0 -2px 0 0 rgba(146, 56, 146, 1) !important;
+}
+#chat-header,
+#user-lists .header,
+#waitlist .header,
+#app .friends .list-header {
+        background:             rgb(3, 0, 7) !important;
+}
+#room-meta {
+        background:     rgb(3, 0, 7) !important;
+}
+#chat-header {
+        background:             rgba(0, 0, 0, 1) !important;
+}
+#chat-header #chat-sound-button,
+#chat-header #chat-emoji-button,
+#chat-header #chat-timestamp-button,
+#chat-header #chat-popout-button,
+#chat-header #chat-mentions-button,
+#chat-header #rcs-clearchat {
+        opacity:                1;
+        -webkit-transition:     all 0.25s linear;
+        -moz-transition:        all 0.25s linear;
+        -o-transition:          all 0.25s linear;
+        transition:             all 0.25s linear; 
+}
+#chat-header:hover > #chat-sound-button,
+#chat-header:hover > #chat-emoji-button,
+#chat-header:hover > #chat-timestamp-button,
+#chat-header:hover > #chat-popout-button,
+#chat-header:hover > #chat-mentions-button,
+#chat-header:hover > #rcs-clearchat {
+        opacity:                0.5;
+}
+
+#chat-header #chat-sound-button:hover,
+#chat-header #chat-emoji-button:hover,
+#chat-header #chat-timestamp-button:hover,
+#chat-header #chat-popout-button:hover,
+#chat-header #chat-mentions-button:hover,
+#chat-header #rcs-clearchat:hover {
+        opacity:                1;
+}
